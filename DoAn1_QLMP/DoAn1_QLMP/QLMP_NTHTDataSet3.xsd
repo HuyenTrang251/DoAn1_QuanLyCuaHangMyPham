@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLMP_NTHTDataSet3" targetNamespace="http://tempuri.org/QLMP_NTHTDataSet3.xsd" xmlns:mstns="http://tempuri.org/QLMP_NTHTDataSet3.xsd" xmlns="http://tempuri.org/QLMP_NTHTDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLMP_NTHTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLMP_NTHTConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DoAn1_QLMP.Properties.Settings.GlobalReference.Default.QLMP_NTHTConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SoNgayMyPhamConHanTableAdapter" GeneratorDataComponentClassName="SoNgayMyPhamConHanTableAdapter" Name="SoNgayMyPhamConHan" UserDataComponentName="SoNgayMyPhamConHanTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLMP_NTHTConnectionString (Settings)" DbObjectName="QLMP_NTHT.dbo.SoNgayMyPhamConHan" DbObjectType="Function" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT myPhamID, tenMyPham, hanSuDung, SoNgayConHan FROM dbo.SoNgayMyPhamConHan()</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="myPhamID" DataSetColumn="myPhamID" />
+              <Mapping SourceColumn="tenMyPham" DataSetColumn="tenMyPham" />
+              <Mapping SourceColumn="hanSuDung" DataSetColumn="hanSuDung" />
+              <Mapping SourceColumn="SoNgayConHan" DataSetColumn="SoNgayConHan" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLMP_NTHTDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="QLMP_NTHTDataSet3" msprop:Generator_DataSetName="QLMP_NTHTDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SoNgayMyPhamConHan" msprop:Generator_RowEvHandlerName="SoNgayMyPhamConHanRowChangeEventHandler" msprop:Generator_RowDeletedName="SoNgayMyPhamConHanRowDeleted" msprop:Generator_RowDeletingName="SoNgayMyPhamConHanRowDeleting" msprop:Generator_RowEvArgName="SoNgayMyPhamConHanRowChangeEvent" msprop:Generator_TablePropName="SoNgayMyPhamConHan" msprop:Generator_RowChangedName="SoNgayMyPhamConHanRowChanged" msprop:Generator_RowChangingName="SoNgayMyPhamConHanRowChanging" msprop:Generator_TableClassName="SoNgayMyPhamConHanDataTable" msprop:Generator_RowClassName="SoNgayMyPhamConHanRow" msprop:Generator_TableVarName="tableSoNgayMyPhamConHan" msprop:Generator_UserTableName="SoNgayMyPhamConHan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="myPhamID" msprop:Generator_ColumnPropNameInRow="myPhamID" msprop:Generator_ColumnPropNameInTable="myPhamIDColumn" msprop:Generator_ColumnVarNameInTable="columnmyPhamID" msprop:Generator_UserColumnName="myPhamID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tenMyPham" msprop:Generator_ColumnPropNameInRow="tenMyPham" msprop:Generator_ColumnPropNameInTable="tenMyPhamColumn" msprop:Generator_ColumnVarNameInTable="columntenMyPham" msprop:Generator_UserColumnName="tenMyPham">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hanSuDung" msprop:Generator_ColumnPropNameInRow="hanSuDung" msprop:Generator_ColumnPropNameInTable="hanSuDungColumn" msprop:Generator_ColumnVarNameInTable="columnhanSuDung" msprop:Generator_UserColumnName="hanSuDung" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SoNgayConHan" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="SoNgayConHan" msprop:Generator_ColumnPropNameInTable="SoNgayConHanColumn" msprop:Generator_ColumnVarNameInTable="columnSoNgayConHan" msprop:Generator_UserColumnName="SoNgayConHan" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SoNgayMyPhamConHan" />
+      <xs:field xpath="mstns:myPhamID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

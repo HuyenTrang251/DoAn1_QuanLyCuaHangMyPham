@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\bin\Debug\BUS.dll
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\bin\Debug\BUS.pdb
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\bin\Debug\DAL.dll
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\bin\Debug\DTO.dll
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\bin\Debug\DAL.pdb
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\bin\Debug\DTO.pdb
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\obj\Debug\BUS.dll
+C:\Users\Admin\source\repos\DoAn1_QLMP\BUS\obj\Debug\BUS.pdb

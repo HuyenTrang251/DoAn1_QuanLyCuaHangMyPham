@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\bin\Debug\DTO.dll
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\bin\Debug\DTO.pdb
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\obj\Debug\DTO.dll
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\obj\Debug\DTO.pdb
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\DoAn1_QLMP\DTO\obj\Debug\DTO.csproj.CopyComplete
